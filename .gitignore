@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.idea/*
 *.py[cod]
 *$py.class
+config.py
 
 # C extensions
 *.so
@@ -72,6 +74,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# IPython
+profile_default/
+ipython_config.py
+
 # pyenv
 .python-version
 
@@ -102,3 +108,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
